@@ -1,0 +1,450 @@
+{
+ "url": "file:///tmp/zip-meeting-point-hostels-barcelona/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tiene?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Tiene dormitorios compartidos y habitaciones privadas; todas las habitaciones cuentan con baño privado."
+    },
+    {
+     "q": "¿A qué hora es el check-in?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "El check-in es de 14:00 a 23:00 y el check-out hasta las 11:00; no se aceptan check-ins tardíos. Todos los huéspedes, también los menores, d"
+    },
+    {
+     "q": "¿Tienen consigna de equipaje?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Sí: la consigna de equipaje está disponible desde las 11:00 del día de llegada y hasta las 14:00 del día de salida."
+    },
+    {
+     "q": "¿Cuál es la política de cancelación?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Con reserva Estándar puedes cancelar gratis hasta 2 días antes de la llegada, solo por correo a hello@meetingpointhostels.com. Las reservas "
+    },
+    {
+     "q": "¿Qué métodos de pago aceptan?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Se aceptan tarjetas de crédito y débito (Visa, MasterCard y Maestro); se necesita una tarjeta válida para garantizar la reserva."
+    },
+    {
+     "q": "¿Hacen reservas de grupo?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Para grupos de 9 personas o más, escribe a hello@meetingpointhostels.com. Las reservas de grupo no son reembolsables y el pago total se pide"
+    },
+    {
+     "q": "¿Aceptan menores de 18 años?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "No se aceptan menores de 18 años en dormitorios compartidos; solo pueden alojarse en habitaciones privadas y acompañados por sus padres."
+    },
+    {
+     "q": "¿Dónde está?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Está en Vallespir 20, 08014 Barcelona, cerca de la estación de Sants y de las líneas de metro L1/L3/L5. El centro histórico y la plaza de Ca"
+    },
+    {
+     "q": "¿Cómo llego desde el aeropuerto?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Lo más rápido es el tren RENFE desde la T2 hasta Barcelona-Sants (3 paradas, 20 minutos; sale cada 30 minutos de 5:30 a 23:30). También el m"
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar con el botón Reservar (va al motor WuBook que usa su web) o escribir a hello@meetingpointhostels.com. Este asistente no conf"
+    },
+    {
+     "q": "¿Cuál es el correo?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Teléfono +34 934 097 446 (a todas horas) y correo hello@meetingpointhostels.com."
+    },
+    {
+     "q": "¿Quién es el titular?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Su aviso legal indica que la denominación social es Meeting Point Hostels S.L., CIF B65676637, con domicilio en Vallespir 20, 08014 Barcelon"
+    },
+    {
+     "q": "¿Cuánto cuesta una noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 934 097 446 · hello@meetingpointhostels.com."
+    },
+    {
+     "q": "Confírmame que hay una cama libre mañana",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar con el botón Reservar (va al motor WuBook que usa su web) o escribir a hello@meetingpointhostels.com. Este asistente no conf"
+    },
+    {
+     "q": "¿Hay desayuno?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "No, lamentablemente no sirven desayunos en el albergue."
+    },
+    {
+     "q": "¿Hay piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 934 097 446 · hello@meetingpointhostels.com."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tiene?",
+    "¿A qué hora es el check-in?",
+    "¿Cómo llego desde el aeropuerto?",
+    "¿Cómo se reserva?"
+   ]
+  },
+  "ca": {
+   "textos_iguales_al_es": [
+    "book",
+    "hero_k",
+    "intro_k",
+    "send",
+    "stat2",
+    "svc2",
+    "menu",
+    "langs_label"
+   ],
+   "chat": [
+    {
+     "q": "Quines habitacions té?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Té dormitoris compartits i habitacions privades; totes les habitacions tenen bany privat."
+    },
+    {
+     "q": "A quina hora és el check-in?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "El check-in és de 14:00 a 23:00 i el check-out fins a les 11:00; no s'accepten check-ins tardans. Tots els hostes, també els menors, han de "
+    },
+    {
+     "q": "Teniu consigna d'equipatge?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Sí: la consigna d'equipatge és disponible des de les 11:00 del dia d'arribada i fins a les 14:00 del dia de sortida."
+    },
+    {
+     "q": "Quina és la política de cancel·lació?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Amb reserva Estàndard pots cancel·lar gratis fins a 2 dies abans de l'arribada, només per correu a hello@meetingpointhostels.com. Les reserv"
+    },
+    {
+     "q": "Quins mètodes de pagament accepteu?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "S'accepten targetes de crèdit i dèbit (Visa, MasterCard i Maestro); cal una targeta vàlida per garantir la reserva."
+    },
+    {
+     "q": "Feu reserves de grup?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Per a grups de 9 persones o més, escriu a hello@meetingpointhostels.com. Les reserves de grup no són reemborsables i el pagament total es de"
+    },
+    {
+     "q": "Accepteu menors de 18 anys?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "No s'accepten menors de 18 anys als dormitoris compartits; només s'hi poden allotjar en habitacions privades i acompanyats pels pares."
+    },
+    {
+     "q": "On és?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "És a Vallespir 20, 08014 Barcelona, a prop de l'estació de Sants i de les línies de metro L1/L3/L5. El centre històric i la plaça de Catalun"
+    },
+    {
+     "q": "Com arribo des de l'aeroport?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "El més ràpid és el tren RENFE des de la T2 fins a Barcelona-Sants (3 parades, 20 minuts; surt cada 30 minuts de 5:30 a 23:30). També el metr"
+    },
+    {
+     "q": "Com reservo?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Pots reservar amb el botó Reservar (va al motor WuBook que fa servir el seu web) o escriure a hello@meetingpointhostels.com. Aquest assisten"
+    },
+    {
+     "q": "Quin és el correu?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Telèfon +34 934 097 446 (a totes hores) i correu hello@meetingpointhostels.com."
+    },
+    {
+     "q": "Qui és el titular?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "El seu avís legal indica que la denominació social és Meeting Point Hostels S.L., CIF B65676637, amb domicili a Vallespir 20, 08014 Barcelon"
+    },
+    {
+     "q": "Quant costa una nit?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 934 097 446 · hello@meetingpointhostels.com."
+    },
+    {
+     "q": "Confirma'm que hi ha un llit lliure demà",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Pots reservar amb el botó Reservar (va al motor WuBook que fa servir el seu web) o escriure a hello@meetingpointhostels.com. Aquest assisten"
+    },
+    {
+     "q": "Hi ha esmorzar?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "No, malauradament no serveixen esmorzars a l'alberg."
+    },
+    {
+     "q": "Hi ha piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 934 097 446 · hello@meetingpointhostels.com."
+    }
+   ],
+   "chips": [
+    "Quines habitacions té?",
+    "A quina hora és el check-in?",
+    "Com arribo des de l'aeroport?",
+    "Com es reserva?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "stat2"
+   ],
+   "chat": [
+    {
+     "q": "What rooms does it have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "It has shared dorms and private rooms; every room has a private bathroom."
+    },
+    {
+     "q": "What time is check-in?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Check-in is from 14:00 to 23:00 and check-out until 11:00; late check-ins are not accepted. All guests, including minors, must show a photo "
+    },
+    {
+     "q": "Do you have luggage storage?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Yes: luggage storage is available from 11:00 on your arrival day until 14:00 on your departure day."
+    },
+    {
+     "q": "What is the cancellation policy?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "With a Standard booking you can cancel free of charge up to 2 days before arrival, only by email to hello@meetingpointhostels.com. Non-Refun"
+    },
+    {
+     "q": "What payment methods do you accept?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Credit and debit cards are accepted (Visa, MasterCard and Maestro); a valid card is needed to guarantee the booking."
+    },
+    {
+     "q": "Do you take group bookings?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "For groups of 9 people or more, email hello@meetingpointhostels.com. Group bookings are non-refundable and full payment is required at least"
+    },
+    {
+     "q": "Do you accept under-18s?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Under-18s are not accepted in shared dorms; they can only stay in private rooms, accompanied by their parents."
+    },
+    {
+     "q": "Where is it?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "It is at Vallespir 20, 08014 Barcelona, near Sants station and metro lines L1/L3/L5. The historic centre and Plaça de Catalunya are about 10"
+    },
+    {
+     "q": "How do I get there from the airport?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "The fastest is the RENFE train from T2 to Barcelona-Sants (3 stops, 20 minutes; every 30 minutes from 5:30 to 23:30). The metro also runs fr"
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book with the Book button (it goes to the WuBook engine its website uses) or email hello@meetingpointhostels.com. This assistant doe"
+    },
+    {
+     "q": "What is the email?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Phone +34 934 097 446 (at all hours) and email hello@meetingpointhostels.com."
+    },
+    {
+     "q": "Who is the owner?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Its legal notice gives the company name Meeting Point Hostels S.L., CIF B65676637, at Vallespir 20, 08014 Barcelona; the hostel is registere"
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 934 097 446 · hello@meetingpointhostels.com."
+    },
+    {
+     "q": "Confirm that there is a free bed tomorrow",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book with the Book button (it goes to the WuBook engine its website uses) or email hello@meetingpointhostels.com. This assistant doe"
+    },
+    {
+     "q": "Is breakfast served?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "No, unfortunately breakfast is not served at the hostel."
+    },
+    {
+     "q": "Is there a swimming pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 934 097 446 · hello@meetingpointhostels.com."
+    }
+   ],
+   "chips": [
+    "What rooms does it have?",
+    "What time is check-in?",
+    "How do I get there from the airport?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres a-t-il ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Elle propose des dortoirs partagés et des chambres privées ; toutes les chambres ont une salle de bains privée."
+    },
+    {
+     "q": "À quelle heure est le check-in ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Le check-in se fait de 14:00 à 23:00 et le check-out jusqu'à 11:00 ; les arrivées tardives ne sont pas acceptées. Tous les clients, y compri"
+    },
+    {
+     "q": "Avez-vous une consigne à bagages ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Oui : la consigne à bagages est disponible dès 11:00 le jour d'arrivée et jusqu'à 14:00 le jour du départ."
+    },
+    {
+     "q": "Quelle est la politique d'annulation ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Avec une réservation Standard, l'annulation est gratuite jusqu'à 2 jours avant l'arrivée, uniquement par e-mail à hello@meetingpointhostels."
+    },
+    {
+     "q": "Quels moyens de paiement acceptez-vous ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Les cartes de crédit et de débit sont acceptées (Visa, MasterCard et Maestro) ; une carte valide est nécessaire pour garantir la réservation"
+    },
+    {
+     "q": "Acceptez-vous les groupes ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Pour les groupes de 9 personnes ou plus, écrivez à hello@meetingpointhostels.com. Les réservations de groupe ne sont pas remboursables et le"
+    },
+    {
+     "q": "Acceptez-vous les moins de 18 ans ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Les moins de 18 ans ne sont pas acceptés en dortoir ; ils peuvent séjourner uniquement en chambre privée, accompagnés de leurs parents."
+    },
+    {
+     "q": "Où est-ce ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Elle se trouve Vallespir 20, 08014 Barcelone, près de la gare de Sants et des lignes de métro L1/L3/L5. Le centre historique et la plaça de "
+    },
+    {
+     "q": "Comment venir depuis l'aéroport ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Le plus rapide est le train RENFE depuis le T2 jusqu'à Barcelona-Sants (3 arrêts, 20 minutes ; toutes les 30 minutes de 5:30 à 23:30). Le mé"
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver avec le bouton Réserver (vers le moteur WuBook de son site) ou écrire à hello@meetingpointhostels.com. Cet assistant ne"
+    },
+    {
+     "q": "Quel est l'e-mail ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Téléphone +34 934 097 446 (à toute heure) et e-mail hello@meetingpointhostels.com."
+    },
+    {
+     "q": "Qui est le titulaire ?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Sa mention légale indique la raison sociale Meeting Point Hostels S.L., CIF B65676637, Vallespir 20, 08014 Barcelone ; l'auberge est inscrit"
+    },
+    {
+     "q": "Combien coûte une nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 934 097 446 · hello@meetingpointhostels.com."
+    },
+    {
+     "q": "Confirmez-moi qu'il y a un lit libre demain",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver avec le bouton Réserver (vers le moteur WuBook de son site) ou écrire à hello@meetingpointhostels.com. Cet assistant ne"
+    },
+    {
+     "q": "Le petit-déjeuner est-il servi ?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "Non, malheureusement le petit-déjeuner n'est pas servi à l'auberge."
+    },
+    {
+     "q": "Y a-t-il une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 934 097 446 · hello@meetingpointhostels.com."
+    }
+   ],
+   "chips": [
+    "Quelles chambres a-t-il ?",
+    "À quelle heure est le check-in ?",
+    "Comment venir depuis l'aéroport ?",
+    "Comment réserver ?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
