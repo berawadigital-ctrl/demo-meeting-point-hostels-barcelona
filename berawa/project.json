@@ -1,0 +1,69 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-meeting-point-hostels-barcelona",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-29T08:30:00+01:00",
+ "updated_at": "2026-10-29T08:30:00+01:00",
+ "business": {
+  "name": "Meeting Point Hostels",
+  "legal_name": "Meeting Point Hostels S.L.",
+  "registry_ids": [
+   "CIF B65676637",
+   "AJ000667"
+  ],
+  "url": "https://meetingpointhostels.com/",
+  "domain": "meetingpointhostels.com",
+  "municipality": "Barcelona",
+  "province": "Barcelona",
+  "address": "Vallespir 20 · 08014 Barcelona",
+  "phones": [
+   "+34 934 097 446"
+  ],
+  "emails": [
+   "hello@meetingpointhostels.com"
+  ],
+  "sector": "albergue junto a la estación de Sants"
+ },
+ "rating": {
+  "value": 4.3,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por telefono, web)",
+  "url": "https://www.google.com/maps/place/Meeting+Point+Hostels/@41.3787101,2.1376915,17z/data=!4m9!3m8!1s0x12a49886ff67b11b:0xc19c565abb02f293!5m2!4m1!1i2!8m2!3d41.3787101!4d2.1376915!16s%2Fg%2F11c5bst0gd?hl=es&entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+  "date": "2026-10-29T06:56:16+01:00",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "ca",
+  "en",
+  "fr"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "engine",
+  "url": {
+   "es": "https://wubook.net/wbkd/wbk/?lcode=1470476499&lang=es",
+   "ca": "https://wubook.net/wbkd/wbk/?lcode=1470476499&lang=ca",
+   "en": "https://wubook.net/wbkd/wbk/?lcode=1470476499&lang=en",
+   "fr": "https://wubook.net/wbkd/wbk/?lcode=1470476499&lang=fr"
+  },
+  "note": "Los botones Reservar van al motor WuBook que enlaza su propia web (wubook.net/wbkd/wbk/?lcode=1470476499), con parametro de idioma. La demo no construye ningun motor."
+ },
+ "audit_original": {
+  "url": "https://meetingpointhostels.com/",
+  "date": "2026-10-29T07:53:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: alojamiento con precedente en demos anteriores",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}

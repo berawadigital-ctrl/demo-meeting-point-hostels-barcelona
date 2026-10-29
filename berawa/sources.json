@@ -1,0 +1,42 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://meetingpointhostels.com/",
+ "read_at": "2026-10-29T08:25:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://meetingpointhostels.com/es/",
+   "sha256": "3a12f334a6e989b1f6c90cba1d46a8a926af7dba58e423da8fa4585c848aed75",
+   "chars": 2441
+  },
+  {
+   "url": "https://meetingpointhostels.com/es/aviso-legal/",
+   "sha256": "30d79527d7bf4cda35b06e9033bb8adf5836691bdfc2dddb50955b2431757ba7",
+   "chars": 18973
+  },
+  {
+   "url": "https://meetingpointhostels.com/es/como-llegar-a-meeting-point-hostels/",
+   "sha256": "f62ddb9273dbe5985548f9dbebb8a6419a1a36fc75bba31573bd25f2ad2c82d6",
+   "chars": 3866
+  },
+  {
+   "url": "https://meetingpointhostels.com/es/condiciones-generales/",
+   "sha256": "73c9726aca79360d9b54962ee4e8ee3d3f1774c8ffa5d35996b1379f3399d1ba",
+   "chars": 14223
+  },
+  {
+   "url": "https://meetingpointhostels.com/es/preguntas-frecuentes/",
+   "sha256": "63252c54c8fb86670be172c47eaf39265613abbed3efa2015b5618eede3dc3b7",
+   "chars": 4488
+  }
+ ],
+ "other_pages_read": [
+  "https://meetingpointhostels.com/",
+  "https://meetingpointhostels.com/es/galeria/",
+  "https://meetingpointhostels.com/faq/",
+  "https://meetingpointhostels.com/gallery/",
+  "https://meetingpointhostels.com/general-conditions/",
+  "https://meetingpointhostels.com/how-to-get-to-meeting-point-hostels/",
+  "https://meetingpointhostels.com/legal-notice/"
+ ]
+}
